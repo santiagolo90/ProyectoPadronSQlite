@@ -1,0 +1,11 @@
+D:\Projecto_PadronSQLite\enWin10\ConSQlite\X86\Padron_Beta.0.2\Padron_Beta.0.2\bin\Debug\Padron_Beta.0.2.exe.config
+D:\Projecto_PadronSQLite\enWin10\ConSQlite\X86\Padron_Beta.0.2\Padron_Beta.0.2\obj\Debug\Padron_Beta.0.2.csprojResolveAssemblyReference.cache
+D:\Projecto_PadronSQLite\enWin10\ConSQlite\X86\Padron_Beta.0.2\Padron_Beta.0.2\obj\Debug\Padron_Beta._0._2.Properties.Resources.resources
+D:\Projecto_PadronSQLite\enWin10\ConSQlite\X86\Padron_Beta.0.2\Padron_Beta.0.2\obj\Debug\Padron_Beta.0.2.csproj.GenerateResource.Cache
+D:\Projecto_PadronSQLite\enWin10\ConSQlite\X86\Padron_Beta.0.2\Padron_Beta.0.2\bin\Debug\Padron_Beta.0.2.exe
+D:\Projecto_PadronSQLite\enWin10\ConSQlite\X86\Padron_Beta.0.2\Padron_Beta.0.2\bin\Debug\Padron_Beta.0.2.pdb
+D:\Projecto_PadronSQLite\enWin10\ConSQlite\X86\Padron_Beta.0.2\Padron_Beta.0.2\bin\Debug\System.Data.SQLite.dll
+D:\Projecto_PadronSQLite\enWin10\ConSQlite\X86\Padron_Beta.0.2\Padron_Beta.0.2\bin\Debug\System.Data.SQLite.pdb
+D:\Projecto_PadronSQLite\enWin10\ConSQlite\X86\Padron_Beta.0.2\Padron_Beta.0.2\obj\Debug\Padron_Beta.0.2.exe
+D:\Projecto_PadronSQLite\enWin10\ConSQlite\X86\Padron_Beta.0.2\Padron_Beta.0.2\obj\Debug\Padron_Beta.0.2.pdb
+D:\Projecto_PadronSQLite\enWin10\ConSQlite\X86\Padron_Beta.0.2\Padron_Beta.0.2\obj\Debug\Padron_Beta._0._2.Form1.resources
