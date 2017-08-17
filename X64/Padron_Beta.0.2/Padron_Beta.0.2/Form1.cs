@@ -25,13 +25,6 @@ namespace Padron_Beta._0._2
 
         private void btnBuscar_Click(object sender, EventArgs e)
         {
-            //AccesoBase ab = new AccesoBase();
-            //ab.Agregar(p);
-            //ab.TraerTodos();
-            //ab.Mostrar(txtBuscar.Text);
-            //MessageBox.Show(ab.Mostrar(txtBuscar.Text));
-            //return ab.ToString();
-
 
                 rtxt.Text = ab.Mostrar(txtBuscar.Text);
 
@@ -46,14 +39,14 @@ namespace Padron_Beta._0._2
                 fila.Cells[3].Value = aux.NroRetencion;
                 this.dgv.Rows.Add(fila);
 
-
-
         }
 
         private void btnBuscar2_Click(object sender, EventArgs e)
         {
+            
             try
             {
+                progressBar1.Value = 0;
                 Empresa aux = new Empresa(txtBuscar.Text);
                 ab.buscarCuit(aux);
                 rtxt.Text = aux.ToString();
@@ -67,6 +60,7 @@ namespace Padron_Beta._0._2
                 fila.Cells[2].Value = aux.alicuota;
                 fila.Cells[3].Value = aux.NroRetencion;
                 this.dgv.Rows.Add(fila);
+                progressBar1.Increment(100);
             }
             catch
             {
@@ -82,8 +76,10 @@ namespace Padron_Beta._0._2
 
         private void btnCargar_Click(object sender, EventArgs e)
         {
+            
             try
             {
+                progressBar1.Value = 0;
                 rtxt.Text = "Cargando Base de Datos, Espere!!!";
                 ab.TraerTodos();
                 if ( txtBuscar.Text != "")
@@ -129,6 +125,19 @@ namespace Padron_Beta._0._2
         private void salirToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.Dispose();
+        }
+
+        private void txtBuscar_KeyPress(object sender, KeyPressEventArgs e)//captura la tecla enter y realiza la busqueda
+        {
+            if(e.KeyChar == '\r' && txtBuscar.Text != "")
+            btnBuscar2.PerformClick();
+            
+        }
+
+        private void limpiarToolStripMenuItem_Click(object sender, EventArgs e)//Limpia las columnas del DataGrid
+        {
+            this.dgv.Rows.Clear();
+            this.dgv.Refresh();
         }
 
 
